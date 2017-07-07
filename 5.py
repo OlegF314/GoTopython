@@ -1,0 +1,1 @@
+print(', '.join(list([', '.join(list(m[:m.find(' ')] * int(m[m.find(' ') + 1:]))) for m in sorted(input().split(', '))])))
